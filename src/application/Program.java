@@ -49,7 +49,7 @@ public class Program {
 		System.out.print("Enter id for delete test: ");
 		int id = sc.nextInt();
 		sellerDao.deleteById(id);
-		System.out.println("Delete completed");
+		System.out.println("Deleted!");
 		
 		sc.close();
 	}
